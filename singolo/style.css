@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
+@media screen and (max-width: 480px){
+    body{
+        background-color: green;
+    }
+}
+
 div{
     outline:1px solid lime
 }
@@ -23,6 +29,7 @@ body{
     margin-top: 35px;
     font-size: 1.4rem;
     float: left;
+
 }
 .links{
     margin-top: 40px;
@@ -55,8 +62,72 @@ body{
     
 }
 
-@media screen and (max-width: 480px;){
-    body{
-        background-color: green;
-    }
+
+.our services{
+    background-color: #EFEFEF;
+    width: 910px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    float: center;
+    text-align: center;
+    width: 100%;
+}
+
+.our services text{
+    max-width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.icon 1{
+    width: 210px;
+    height: 90px;
+    background-color: #EFEFEF;
+    padding: 20px;
+    float: left;
+
+}
+
+.icon 2{
+    width: 210px;
+    height: 90px;
+    background-color: #EFEFEF;
+    padding: 20px;
+    float: left;
+
+}
+
+.icon 3{
+    width: 210px;
+    height: 90px;
+    background-color: #EFEFEF;
+    padding: 20px;
+    float: center;
+
+}
+
+.icon 4{
+    width: 210px;
+    height: 90px;
+    background-color: #EFEFEF;
+    padding: 20px;
+    float: center;
+}
+
+.icon 5{
+    width: 210px;
+    height: 90px;
+    background-color: #EFEFEF;
+    padding: 20px;
+    float: right;
+}
+
+.icon 6{
+    width: 210px;
+    height: 90px;
+    background-color: #EFEFEF;
+    padding: 20px;
+    float: right;
 }
